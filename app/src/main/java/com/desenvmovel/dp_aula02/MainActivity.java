@@ -48,8 +48,5 @@ public class MainActivity extends AppCompatActivity {
         float total = valor + (valor * porcentagem /100);
         mTextViewPorcentagem.setText(String.valueOf(porcentagem) + "%" );
         mTextViewTotal.setText(String.format("R$ %.2f", total));
-
     }
-
-
 }
